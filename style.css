@@ -5,7 +5,7 @@
 
 form {
   width: 350px;
-  padding: 0px;
+  padding: 0px; /*this is already declared in line #2 */
   position: relative;
 }
 
@@ -26,7 +26,7 @@ div.alignleft{
 
 form{
   position: relative;
-
+  /*You have this code in line #9*/
 }
 form input, .info{
   width: 150px;
@@ -49,7 +49,7 @@ form input[type='text'], select{
 }
 
 form input[type='submit']{
-  display: inline-block;
+  display: inline-block; /* This line is no needed. */
   margin-left: 150px;
   margin-top: 30px;
 }
